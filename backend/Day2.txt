@@ -1,0 +1,49 @@
+Node & Express-------------------------------------------------------
+
+        Rotas e recursos
+            app.get('/users', (request, response) =>  
+
+
+        Metodos HTTP
+            //GET - busca uma rota no backend
+            //POST - Enviar/Criar no backend
+            //PUT - Altera
+            //DELETE - Deleta
+
+        Tipos de parametros
+            //Query Params:  parametros nomeados enviados na rota apos "?" (Filtros, Paginacao)
+            //Route Params: Parametros utilizados para identificar recursos "/"
+            //Request Body: Corpo da requisicao utilizado para criar ou alterar recursos
+
+Insomnia-----------------------------------------------------------------
+    Similar ao Postman/ Para testar requisicoes GET/POST e etc
+
+Nodemon------------------------------------------------------------------
+    Usado para iniciar o server "Express" automaticamente
+    Dependencias usada apenas para desenvovimento com "npm install nodemon -D"
+    Necessario inicia-lo com npm start e ele atualizara automaticamente
+
+bancos de dados---------------------------------------------------------
+    Driver: Select * from users
+    Banco de dados: SQlite
+    QueryBuilder: Knex = queryBuilder em javascript que permite fazer query em js table('users').select('*').where()
+
+    Entidades
+        Tudo que reprenta algo que vai ser salvo no DB
+        1-ONG
+        2-Caso (Incident)
+
+        Funcionalidade
+            Login de ONG
+            Logout de ONG
+            Cadastro de ONG
+            Cadastrar novos casos
+            Deletar casos
+            Listar casos especificos de uma ONG
+            Listar todos os casos
+            Entrar em contato com a ONG/ whatsapp e Email
+
+
+CORS---------------------------------------------------------------------
+
+Github--------------------------------------------------------------------
