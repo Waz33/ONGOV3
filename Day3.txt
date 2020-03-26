@@ -1,0 +1,34 @@
+Limpando a estrutura--------------------------------------------------------------
+
+Conceitos de React-----------------------------------------------------------------
+    Componente
+        componentes html ou JSX
+    JSX
+        componentes renderizados pelo react
+    Propriedades
+        props, chidren
+    Estado
+        Valor de estado dos componentes da aplicacao
+    Imutabilidade
+        Valores dos componentes nunca alterados sendo const, sempre se altera o valor do estado
+
+Pagina de Login------------------------------------------------------------------
+    Style.css + Componente Login
+
+Configurando Rotas---------------------------------------------------------
+    Route - pacote 'react-router-dom'
+
+Cadastro de ONGs---------------------------------------------------------------------
+    Style.css + Componente Profile
+    
+Cadastro de um novo Casos/Incidentes--------------------------------------------------------------------
+    Style.css + Componente NewIncident/caso
+    
+
+Conectando aplicacoes a API--------------------------------------------------------------------
+    Listagem de Casos/Incidentes--------------------------------------------------------------------
+        Usando map.Array
+    Cadastro de Casos/Incidentes--------------------------------------------------------------------
+
+Github--------------------------------------------------------------------
+    Subir projecto
