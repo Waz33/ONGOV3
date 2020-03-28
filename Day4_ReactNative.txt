@@ -1,0 +1,45 @@
+Instalacao do Expo--------------------------------------------------------------
+    Ferramenta global para criar projetos, execuutar  no celular e simuladores
+    npm install -g expo-cli
+        se problemas tente:     npm install expo-cli --global --verbose
+
+React Native --------------------------------------------------------------
+    Criando projetos
+
+Executar projetos
+    celular
+    Emuladores
+    Expo Snack / plataforma online para o pc muito lento
+
+Estrutura de pastas
+  Diferenca entre React Native e Rectjs
+    Elementos Html
+    semantica
+    estilizacao
+        flexbox
+		todos os elementos ja sao flexbox por default
+        propriedades
+        Heranca de estilos
+        Estilizacao propria para cada elemento
+
+Icone e splash Screen
+	splash= imagem de transicao na abertura do app
+
+configurando navegacao
+	pacote useNavigation
+
+pagina de casos
+	Criacao de componentes e estilo, iteracao com flatList insted of map do javascript
+
+detalhe do casos
+	Criacao de componentes e estilo, 
+	criacao da page de detalhes com botao de goBack()
+	
+Abrindo whatsapp & email
+	whatsapp usa pacote Linking do react-native e abre a URL do phone chamado passando a mensagem escrita
+	email usal pacote MailComposer onde deve passar o destinatario, assunto e body, com isso o app de email ja abre preenchido
+
+conexao com API
+	   
+Github--------------------------------------------------------------------
+    Subir projecto

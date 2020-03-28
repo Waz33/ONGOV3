@@ -5,8 +5,7 @@ module.exports = {
         const { page = 1} =  request.query;
 
         const [count] = await connection('incidents').count();
-        console.log(count);
-
+        
         response.header('X-Total-Count', count['count(*)'] );
 
         const incidents = await connection('incidents')
