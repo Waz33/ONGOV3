@@ -1,0 +1,41 @@
+Adicionando Validacao--------------------------------------------------------------
+    	Usar Celebrate() para validar entrada de dados,que eh a juncao do Joi e Express
+	Pacote Error para manipular retorno de erros como codigos Rest(200,400.500)
+Adicionando testes --------------------------------------------------------------
+    	Porque fazer testes
+		Eh necessario devido a qtd de paginas da aplicacao
+
+	TDD
+		Test-Driven-Design = Ja escreve os testes antes de criar o codigo com regra de negocio
+
+	Configurando Jest
+		Pacote jest
+		ex: it('Gera chave').should.GenerateAnID().
+
+	Tipos de testes
+		Unitario(funcao especifica)
+		Integrado(Varias funcionalidades integradas)
+
+	Configurando banco de testes
+		Criar ambiente de teste no package.json, com outro DB
+		Criar variavel de ambiente para chavear chamada applicacao e chamada no ambiente de testes
+		Usar pacote supertest para chamadas de servicos na api, ex: 'ongs'
+	
+	instalando supertest
+		Usar para chamada de servicos na api ex: 'ongs' / instead of axios
+
+	Testando rota de autenticacao
+		Testa retorno e fecha processo afterAll para encerrar o teste de integracao
+
+Deploy --------------------------------------------------------------
+	Alternativas
+	Qual escolher?
+
+Estudos daki pra frente --------------------------------------------------------------
+	Padroes de codigo
+	Autenticacao JWT
+	Styled Component
+	
+Dicas para aproveitar melhor --------------------------------------------------------------
+	Github
+	Linkedin

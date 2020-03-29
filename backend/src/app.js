@@ -1,5 +1,6 @@
 const express = require('express'); //Importa pacote
 const cors = require('cors');
+const { errors} = require('celebrate');
 const routes = require('./routes'); // Importa Arquivo
 
 const app = express();
@@ -7,6 +8,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(routes);
+app.use(errors());
+
+module.exports = app;
 
 
 //Rota / recurso
@@ -32,4 +36,4 @@ app.use(routes);
 
 
 //Escuta a porta 3333
-app.listen(3333);
+///app.listen(3333);

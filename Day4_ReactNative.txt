@@ -40,6 +40,9 @@ Abrindo whatsapp & email
 	email usal pacote MailComposer onde deve passar o destinatario, assunto e body, com isso o app de email ja abre preenchido
 
 conexao com API
+	usando axios para consumir o backend
+	FlatList para iteracao de objetos / Paginacao
+	
 	   
 Github--------------------------------------------------------------------
-    Subir projecto
+    Subir projecto mobile para o github
